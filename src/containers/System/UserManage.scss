@@ -1,0 +1,180 @@
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    overflow: scroll;
+
+}
+
+.status {
+    font-size: 18px;
+    margin-left: 100px;
+    color: rgb(13, 57, 169);
+    font-weight: 600;
+}
+
+td {
+    white-space: pre-wrap;
+}
+
+.user-table {
+    height: 700px;
+    overflow: auto;
+}
+
+.btn-group {
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+    margin-left: 10px;
+}
+
+#customers td,
+#customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#customers tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#customers tr:hover {
+    background-color: #ddd;
+}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #0071ba;
+    justify-content: space-between;
+    color: white;
+}
+
+.btn-edit {
+    width: 50px;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: orange;
+
+    &:hover {
+        background-color: transparent !important;
+        color: orange !important;
+    }
+}
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+.btn-delete {
+    width: 50px;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: red;
+
+    &:hover {
+        background-color: transparent !important;
+        color: red !important;
+    }
+}
+
+.btn-show-report {
+    width: 50px;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: hotpink;
+
+    &:hover {
+        background-color: transparent !important;
+        color: hotpink !important;
+    }
+}
+
+.btn-show-business {
+    width: 50px;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: darkblue;
+
+    &:hover {
+        background-color: transparent !important;
+        color: darkblue !important;
+    }
+}
+
+
+.modal-shop-container {
+    .modal-shop-body {
+
+        .input-container {
+            display: flex;
+            flex-direction: column;
+
+            input {
+                border-radius: 3px;
+                border: 1px solid grey;
+                height: 30px;
+                outline: none;
+                padding: 0 10px;
+            }
+
+            select {
+                border-radius: 3px;
+                border: 1px solid grey;
+                height: 30px;
+                outline: none;
+                padding: 0 10px;
+            }
+        }
+    }
+
+}
+
+.modal-item-container {
+    .modal-shop-body {
+
+        .input-container {
+            display: flex;
+            flex-direction: column;
+
+            input {
+                border-radius: 3px;
+                border: 1px solid grey;
+                height: 30px;
+                outline: none;
+                padding: 0 10px;
+            }
+
+            select {
+                border-radius: 3px;
+                border: 1px solid grey;
+                height: 30px;
+                outline: none;
+                padding: 0 10px;
+            }
+
+            small {
+                margin: 4px 2px;
+                color: red;
+            }
+        }
+    }
+
+}
